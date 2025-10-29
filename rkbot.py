@@ -44,7 +44,7 @@ API_URL = "https://da-api.robi.com.bd/da-nll/otp/send"
 HEADERS = {"Content-Type": "application/json"}
 HISTORY_FILE = Path("history.json")
 CONCURRENCY = 150
-WAKEUP_URL = "https://rkbot5.onrender.com"
+WAKEUP_URL = "https://rkbot0-7.onrender.com/"
 MEMORY_LIMIT_MB = 450
 MAX_SIMULTANEOUS_NUMBERS_PER_CHAT = 5
 
