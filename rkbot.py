@@ -236,4 +236,4 @@ async def startup():
 # ------------- RUN LOCALLY ------------------
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("rkbot:app", host="8.8.8.8", port=int(os.getenv("PORT", 5000)))
+    uvicorn.run("rkbot:app", host="0.0.0.0", port=int(os.getenv("PORT", 8000)))
